@@ -25,14 +25,22 @@ URL para probar en postman:
 127.0.0.1:3006/api/libro/id/ID
 
 ### Usando verbos en postman:
-GET
+GET (Ver todos los libros)
 127.0.0.1:3006/api/libro/
 
-POST
+POST (Agregar libros)
 127.0.0.1:3006/api/libro/id/"#id"
+Estructura:
+  {
+    "titulo": "1985",
+    "autor": "proyecto-default.jpg",
+    "imagen": "https://github.com/usuario/proyecto",
+    "generos": ["1", "2"]
+  }
 
-PUT
+PUT (Actualizar libros)
 127.0.0.1:3006/api/libro/id/"#id"
+Estructura:
   {
     "titulo": "1985_1",
     "autor": "proyecto-default_1.jpg",
@@ -40,6 +48,6 @@ PUT
     "generos": ["1", "2"]
   }
 
-DELETE
+DELETE (eliminar libros por ID)
 127.0.0.1:3006/api/libro/id/"#id"
 
