@@ -19,8 +19,11 @@ MONGO_DB_URI = "url_dada_por_mongoDB"
 
 ### En .gitignore
 ocultar:
-node_modules
+
+```
+node_modules 
 .env
+```
 <br/>
 
 ### para levantar el servidor:
