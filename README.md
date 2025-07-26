@@ -36,12 +36,18 @@ node_modules
 <br/>
 
 ### para levantar el servidor:
+```
 node index.js
+```
 <br/>
 
 URL para probar en postman:
+```
 127.0.0.1:3006/api/libro/id/ID
-<br/>
+```
+
+
+
 
 ### Usando verbos en postman:
 GET (Ver todos los libros) <br/>
@@ -52,25 +58,31 @@ POST (Agregar libros) <br/>
 Seleccionar opción: Body, raw y JSON
 127.0.0.1:3006/api/libro/id/"#id"
 Estructura:
+```
   {
     "titulo": "1985",
     "autor": "proyecto-default.jpg",
     "imagen": "https://github.com/usuario/proyecto",
     "generos": ["1", "2"]
   }
+```
 <br/>
 
 PUT (Actualizar libros) <br/>
 127.0.0.1:3006/api/libro/id/"#id"
 Estructura: <br/>
+```
   { 
     "titulo": "1985_1",
     "autor": "proyecto-default_1.jpg",
     "imagen": "https://github.com/usuario/proyecto_1",
-    "generos": ["1", "2"]
+    "generos": ["3", "4"]
   }
+```
 <br/>
 
 DELETE (eliminar libros por ID) <br/>
 127.0.0.1:3006/api/libro/id/"#id"
 
+fork: https://github.com/jpaulgb/api-portafolio-1
+de la clase: https://github.com/JSand89/api-portafolio
