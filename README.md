@@ -48,6 +48,6 @@ Estructura:
     "generos": ["1", "2"]
   }
 
-DELETE (eliminar libros por ID)
+DELETE (eliminar libros por ID) <br/>
 127.0.0.1:3006/api/libro/id/"#id"
 
