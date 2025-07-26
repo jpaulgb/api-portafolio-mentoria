@@ -32,11 +32,12 @@ URL para probar en postman:
 <br/>
 
 ### Usando verbos en postman:
-GET (Ver todos los libros)
+GET (Ver todos los libros) <br/>
 127.0.0.1:3006/api/libro/
 <br/>
 
-POST (Agregar libros)
+POST (Agregar libros) <br/>
+Seleccionar opción: Body, raw y JSON
 127.0.0.1:3006/api/libro/id/"#id"
 Estructura:
   {
