@@ -1,20 +1,29 @@
 Mentoria completa sabado, 26/07/2025
 
 Api de biblioteca con express, rutas, modelos con orm mongoose y
-Usar: npm init -y para iniciar el proyecto 
+Usar:
+```
+npm init -y para iniciar el proyecto
+```
 <br/>
 
 ### crear archivos
+```
 touch index.js .env .gitignore
+```
 <br/>
 
 ### crear carpetas
+```
 mkdir controllers routes models
+```
 <br/>
 
 ### conectar la base de datos con el proyecto
 en el archivo (.env) se agrega la conexión con la base de datos de mongoDb asi:
+```
 MONGO_DB_URI = "url_dada_por_mongoDB"
+```
 <br/>
 
 ### En .gitignore
