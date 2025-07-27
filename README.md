@@ -22,6 +22,9 @@ mkdir controllers routes models
 ```
 <br/>
 
+### Express
+npm install express
+
 ### Conectar la base de datos con el proyecto
 En el archivo (.env) se agrega la conexión con la base de datos de mongoDb asi:
 ```
