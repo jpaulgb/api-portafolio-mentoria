@@ -53,7 +53,7 @@ URL para probar en postman:
 127.0.0.1:3006/api/libro/id/ID
 ```
 
-### Usando verbos en postman:
+### Usando VERBOS en postman para probar:
 GET (Ver todos los libros) <br/>
 127.0.0.1:3006/api/libro/
 <br/>
