@@ -7,27 +7,30 @@ npm init -y para iniciar el proyecto
 ```
 <br/>
 
-### crear archivos
+### Crear archivos
 ```
 touch index.js .env .gitignore
 ```
-<br/>
 
-### crear carpetas
+Para ver carpetas y carpetas ocultas en git bash:
+```
+ls -a
+```
+### Crear carpetas
 ```
 mkdir controllers routes models
 ```
 <br/>
 
-### conectar la base de datos con el proyecto
-en el archivo (.env) se agrega la conexión con la base de datos de mongoDb asi:
+### Conectar la base de datos con el proyecto
+En el archivo (.env) se agrega la conexión con la base de datos de mongoDb asi:
 ```
 MONGO_DB_URI = "url_dada_por_mongoDB"
 ```
 <br/>
 
 ### En .gitignore
-ocultar:
+Ocultar:
 
 ```
 node_modules 
@@ -35,11 +38,11 @@ node_modules
 ```
 <br/>
 
-### para levantar el servidor:
+### Para levantar el servidor:
 ```
 node index.js
 ```
-para levantar el servidor con watch:
+Para levantar el servidor con watch:
 ```
 node --watch index.js
 ```
@@ -49,9 +52,6 @@ URL para probar en postman:
 ```
 127.0.0.1:3006/api/libro/id/ID
 ```
-
-
-
 
 ### Usando verbos en postman:
 GET (Ver todos los libros) <br/>
@@ -88,5 +88,5 @@ Estructura: <br/>
 DELETE (eliminar libros por ID) <br/>
 127.0.0.1:3006/api/libro/id/"#id"
 
-fork: https://github.com/jpaulgb/api-portafolio-1
+Fork: https://github.com/jpaulgb/api-portafolio-1
 de la clase: https://github.com/JSand89/api-portafolio
