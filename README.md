@@ -39,6 +39,10 @@ node_modules
 ```
 node index.js
 ```
+para levantar el servidor con watch:
+```
+node --watch index.js
+```
 <br/>
 
 URL para probar en postman:
